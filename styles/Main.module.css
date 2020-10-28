@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+.main {
+  background-color: #6998c6;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.ul {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 5px 10px;
+}
+.ul > li {
+  list-style: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-column-gap: 10px;
+}
+
+.mainInfo {
+  padding: 100px 30px;
+}
+.hello {
+  font-family: "Anonymous Pro", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+.name {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 75px;
+  color: #ffffff;
+  margin: 15px 0;
+}
+.profession {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.77);
+  margin: 0;
+}
