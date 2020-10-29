@@ -6,7 +6,14 @@ export const es = {
     about: "Sobre mí",
     experience: "Experiencia",
     projects: "Projectos",
-  }
+  },
+  story: {
+    firstPara: "Hola! Soy Nicolle, una desarrolladora front-end de Lima, PE.",
+    secondPara: "Me gusta crear cosas que están disponibles en internet y me encanta la idea de que las cosas que he creado puede ayudar a los demás. Estoy segura de que la tecnología y su uso adecuado pueden tener un impacto positivo en la sociedad.",
+    thridParag:"Desde pequeña me interesaba el diseño y funcionalidad de las páginas web o aplicaciones que se veian en la pantalla de la computadora; no fue hasta el penúltimo año de la secundaria que comencé a profundizar en el tema y me encontré con Platzi, vi unos videos y decidí que mi profesión seria esto",
+    fourthParag: "En el 2017 ingresé a la Universidad de San Martin de Porres y en marzo del 2020 ingresé a Codeable que es un bootcamp intensivo de 6 meses, en este último reforcé algunos lenguajes que ya sabía y aprendí nuevos."
+  },
+  
 }
 
 export const en = {
@@ -17,5 +24,11 @@ export const en = {
     about: "About me",
     experience: "Experience",
     projects: "Projects"
+  },
+  story: {
+    firstPara: "Hello! I'm Nicolle, a front-end developer from Lima, PE.",
+    secondPara: "I like creating things that live on Internet and I love the idea that things I've created can help someone else. I am certain that technology and its proper use can have a positive impact on society.",
+    thridParag: "Since I was child, I was interested in the design and functionality of websites or applications that the computer showed. When I was in high school I started to search more about the topic and I saw Platzi, I watched some videos and I decided that my occupation would be this.",
+    fourthParag: "In 2017 I entered San Martin de Porres University and in March 2020, I entered Codeable that is Intensive 6-month Bootcamp, here I reinforced some languages I already knew and learned new ones."
   }
 }
