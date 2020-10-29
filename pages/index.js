@@ -1,16 +1,19 @@
+import {useState} from "react"
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
+import { useColorMode } from "@chakra-ui/core";
 
 export default function Home() {
+  const [isDark, setIsDark] = useState(false)
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{backgroundColor: isDark ? "#1A202C": "#6998c6"}}>
       <Head>
         <title>Nicolle Quispe</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Main/>
+      <Main isDark={isDark} setIsDark={setIsDark}/>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

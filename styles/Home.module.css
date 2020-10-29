@@ -1,10 +1,8 @@
 .container {
-  min-height: 100vh;
-  /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  min-height: 100vh;
+  padding: 40px;
 }
 
 .main {
@@ -119,4 +117,19 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.ul {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 5px 10px;
+}
+.ul > li {
+  list-style: none;
 }
