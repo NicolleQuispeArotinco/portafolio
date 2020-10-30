@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
 
+/* :root {
+  --text-color: #d5eeff;
+  --highlight-text-color: #ff895d;
+  --other-text-color: rgba(255, 255, 255, 0.77);
+} */
+
 .container {
   min-height: 100vh;
 }
@@ -34,7 +40,7 @@
 .date,
 .toDoList {
   font-family: "Ubuntu Mono", monospace;
-  color: blanchedalmond;
+  color: rgba(255, 255, 255, 0.77);
 }
 
 .toDoList {
@@ -50,7 +56,7 @@
   position: absolute;
   left: 0px;
   line-height: 17px;
-  color: paleturquoise;
+  color: #ff895d;
   font-size: 20px;
 }
 
@@ -64,5 +70,5 @@
 }
 
 .infoTitle span {
-  color: teal;
+  color: #ff895d;
 }

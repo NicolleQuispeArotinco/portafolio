@@ -5,6 +5,9 @@ const newTheme = {
   colors: {
     white: {
       500: "#ffffff"
+    },
+    coral: {
+      500: "#ff895d"
     }
   }
 }

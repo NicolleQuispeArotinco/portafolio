@@ -55,7 +55,7 @@ function Main({isDark, setIsDark}) {
             {isEnglish ? en.occupation: es.occupation}
           </h2>
           <a href="#about">
-            <Button variantColor="white" variant="outline" className={styles.viewButton}>
+            <Button variantColor={"coral"} variant="outline" className={styles.viewButton}>
               {isEnglish ? en.viewButton: es.viewButton}
               <img src="/images/arrow.svg"/>
             </Button>

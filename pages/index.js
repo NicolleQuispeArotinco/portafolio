@@ -9,7 +9,7 @@ export default function Home() {
   const [isDark, setIsDark] = useState(false)
 
   return (
-    <div className={styles.container} style={{backgroundColor: isDark ? "#1A202C": "#6998c6"}}>
+    <div className={styles.container} style={{backgroundColor: isDark ? "#1B435D": "#78BBE6"}}>
       <Head>
         <title>Nicolle Quispe</title>
         <link rel="icon" href="/favicon.ico" />

@@ -89,20 +89,20 @@
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
-  color: blanchedalmond;
+  color: rgba(255, 255, 255, 0.77);
 }
 .skillsList li::before {
   content: "▹";
   position: absolute;
   left: 0px;
   line-height: 17px;
-  color: paleturquoise;
+  color: #ff895d;
   font-size: 20px;
 }
 
 .paragraph {
   font-family: "Baloo Tammudu 2", cursive;
-  color: blanchedalmond;
+  color: rgba(255, 255, 255, 0.77);
   font-size: 18px;
   margin: 0;
 }
