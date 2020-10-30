@@ -4,21 +4,14 @@ import { es, en } from "../public/lang/language"
 import Header from "./Header"
 import SocialSection from "./SocialSection";
 
-function About({isDark, setIsDark}) {
-  const [ isEnglish, setIsEnglish] = useState(true)
-
+function About({isEnglish, setIsEnglish}) {
   const toggleLang = () => {
     setIsEnglish(!isEnglish);
   }
 
-  const toggleDark = () => {
-    setIsDark(!isDark);
-  }
   return(
     <div className={styles.container} id="about">
-    <Header isDark={isDark} setIsDark={setIsDark} isEnglish={isEnglish} setIsEnglish={setIsEnglish} es={es} en={en}/>
-    <div className={styles.mainContainer}>
-      <SocialSection/>
+    {/* <Header isDark={isDark} setIsDark={setIsDark} isEnglish={isEnglish} setIsEnglish={setIsEnglish} es={es} en={en}/> */}
       <div className={styles.main} >
         <h1 className={styles.title}>{isEnglish ? en.menu.about : es.menu.about}</h1>
         <div className={styles.infoContainer}>
@@ -38,7 +31,6 @@ function About({isDark, setIsDark}) {
           <img src="/images/me.jpg" alt="me" className={styles.myImage}/>
         </div>
       </div>
-    </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  background: #1b435d;
 }
 
 .main {
@@ -130,4 +131,10 @@
 }
 .ul > li {
   list-style: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-column-gap: 10px;
 }

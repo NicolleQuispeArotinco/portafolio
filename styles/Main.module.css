@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
 .main {
   min-height: 100vh;
-  padding: 40px;
 }
 
 .nav {
@@ -23,7 +22,7 @@
 }
 
 .mainInfo {
-  padding: 120px 30px;
+  padding: 165px 30px;
 }
 .hello {
   font-family: "Anonymous Pro", monospace;

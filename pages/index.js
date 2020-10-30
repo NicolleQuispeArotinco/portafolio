@@ -1,22 +1,28 @@
 import {useState} from "react"
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Main from '../components/Main'
+import Principal from '../components/Principal'
 import About from "../components/About"
 import Experience from "../components/Experience"
+import SocialSection from "../components/SocialSection"
+import Main from "../components/Main"
+import Header from "../components/Header"
+import { es, en } from "../public/lang/language"
 
 export default function Home() {
-  const [isDark, setIsDark] = useState(false)
+  const [isEnglish, setIsEnglish] = useState(true)
 
   return (
-    <div className={styles.container} style={{backgroundColor: isDark ? "#1B435D": "#78BBE6"}}>
+    <div className={styles.container}>
       <Head>
         <title>Nicolle Quispe</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main isDark={isDark} setIsDark={setIsDark}/>
-      <About  isDark={isDark} setIsDark={setIsDark}/>
-      <Experience isDark={isDark} setIsDark={setIsDark}/>
+      <Header isEnglish={isEnglish} setIsEnglish={setIsEnglish} es={es} en={en}/>
+      <div className={styles.content}>
+        <SocialSection/>
+        <Main isEnglish={isEnglish} setIsEnglish={setIsEnglish}/>
+      </div>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
