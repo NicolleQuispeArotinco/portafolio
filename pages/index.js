@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Main from '../components/Main'
 import About from "../components/About"
+import Experience from "../components/Experience"
 
 export default function Home() {
   const [isDark, setIsDark] = useState(false)
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Main isDark={isDark} setIsDark={setIsDark}/>
       <About  isDark={isDark} setIsDark={setIsDark}/>
+      <Experience isDark={isDark} setIsDark={setIsDark}/>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
+
+.container {
+  min-height: 100vh;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  padding: 0 40px;
+}
+
+.main {
+  margin-right: 120px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: Nunito;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 30px 0 20px;
+}
+
+.infoContainer {
+  padding: 30px;
+  width: 66%;
+  margin: auto;
+}
+
+.date,
+.toDoList {
+  font-family: "Ubuntu Mono", monospace;
+  color: blanchedalmond;
+}
+
+.toDoList {
+  padding: 0px 90px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.toDoList li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  line-height: 17px;
+  color: paleturquoise;
+  font-size: 20px;
+}
+
+.infoTitle {
+  color: white;
+  font-size: 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}
+
+.infoTitle span {
+  color: teal;
+}
