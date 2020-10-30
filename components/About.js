@@ -15,7 +15,7 @@ function About({isDark, setIsDark}) {
     setIsDark(!isDark);
   }
   return(
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
     <Header isDark={isDark} setIsDark={setIsDark} isEnglish={isEnglish} setIsEnglish={setIsEnglish} es={es} en={en}/>
     <div className={styles.mainContainer}>
       <SocialSection/>

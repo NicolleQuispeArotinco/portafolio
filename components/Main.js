@@ -54,10 +54,12 @@ function Main({isDark, setIsDark}) {
           <h2 className={styles.occupation}>
             {isEnglish ? en.occupation: es.occupation}
           </h2>
+          <a href="#about">
             <Button variantColor="white" variant="outline" className={styles.viewButton}>
               {isEnglish ? en.viewButton: es.viewButton}
               <img src="/images/arrow.svg"/>
             </Button>
+            </a>
         </div>
       </div>
       
