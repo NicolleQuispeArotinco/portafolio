@@ -5,6 +5,7 @@ import Principal from '../components/Principal'
 import About from "../components/About"
 import Experience from "../components/Experience"
 import SocialSection from "../components/SocialSection"
+import MailSection from "../components/MailSection"
 import Main from "../components/Main"
 import Header from "../components/Header"
 import { es, en } from "../public/lang/language"
@@ -22,6 +23,7 @@ export default function Home() {
       <div className={styles.content}>
         <SocialSection/>
         <Main isEnglish={isEnglish} setIsEnglish={setIsEnglish}/>
+        <MailSection/>
       </div>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>

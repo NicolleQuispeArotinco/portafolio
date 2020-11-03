@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
+
+.mailContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.textContainer {
+  width: 30px;
+  height: 228px;
+  margin: auto;
+}
+.textContainer p {
+  transform: rotate(90deg);
+  font-family: "Ubuntu Mono", monospace;
+  color: #ff895d;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
