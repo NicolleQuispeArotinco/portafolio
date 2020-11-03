@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/About.module.css";
-import { Button, IconButton} from "@chakra-ui/core";
+import styles from "../styles/Header.module.css";
+import { Button } from "@chakra-ui/core";
 
 function Header({isEnglish, setIsEnglish, es, en}){
   const toggleLang = () => {
@@ -14,7 +14,7 @@ function Header({isEnglish, setIsEnglish, es, en}){
         <li><a href="#experience">{isEnglish ? en.menu.experience : es.menu.experience}</a></li>
         <li><a href="#projects">{isEnglish ? en.menu.projects : es.menu.projects}</a></li>
       </ul>
-      <div className={styles.ulButtons}>
+      <div>
         <Button variantColor="white" variant="outline" onClick={toggleLang} className={styles.iconButton}>
           {isEnglish ? "En" : "Es"}
         </Button>
