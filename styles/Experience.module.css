@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
 
-/* :root {
-  --text-color: #d5eeff;
-  --highlight-text-color: #ff895d;
-  --other-text-color: rgba(255, 255, 255, 0.77);
-} */
-
 .container {
   padding: 151px 0;
 }
@@ -38,14 +32,17 @@
 }
 
 .date,
-.toDoList {
+.toDoList li {
   font-family: "Ubuntu Mono", monospace;
   color: rgba(255, 255, 255, 0.77);
 }
 
 .toDoList {
-  padding: 0px 90px;
+  padding: 0px 20px;
   list-style: none;
+}
+
+.toDoList li {
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
