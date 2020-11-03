@@ -9,7 +9,7 @@ function Principal({isEnglish, setIsEnglish}) {
   }
 
   return(
-    // <div className={styles.main}>
+    // <div className={styles.principal}>
       <div className={styles.mainInfo}>
         <h3 className={styles.hello}>
           {isEnglish ? en.greeting: es.greeting}

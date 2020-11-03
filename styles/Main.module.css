@@ -22,7 +22,7 @@
 }
 
 .mainInfo {
-  padding: 165px 30px;
+  padding: 200px 30px;
 }
 .hello {
   font-family: "Anonymous Pro", monospace;
@@ -92,6 +92,9 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
 }
 .buttonContainer {
   width: 60px;

@@ -6,9 +6,9 @@
   --other-text-color: rgba(255, 255, 255, 0.77);
 } */
 
-/* .container {
-  min-height: 100vh;
-} */
+.container {
+  padding: 151px 0;
+}
 
 .mainContainer {
   display: grid;

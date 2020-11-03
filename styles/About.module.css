@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
 
-/* .container {
-  min-height: 100vh;
-} */
+.container {
+  padding: 55px 0;
+}
 
 .mainContainer {
   display: grid;
