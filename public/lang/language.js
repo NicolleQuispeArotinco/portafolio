@@ -50,3 +50,5 @@ export const en = {
     }
   }
 }
+
+export const skills = ["JavaScript (ES6+)", "HTML & CSS", "React", "Nextjs", "WordPress", "Redux"]
