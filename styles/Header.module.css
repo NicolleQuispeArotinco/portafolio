@@ -26,6 +26,11 @@
   align-self: center;
 }
 
+.options > li:hover {
+  color: #ff895d;
+  transition: 0.3s linear;
+}
+
 .iconButton {
   cursor: pointer;
 }
