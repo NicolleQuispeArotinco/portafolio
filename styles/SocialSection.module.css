@@ -1,0 +1,27 @@
+.socialContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.buttonContainer {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socialButton {
+  border: transparent !important;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.socialButton:hover {
+  transform: scale(1.2);
+}
+.socialButton:focus {
+  box-shadow: none !important;
+}

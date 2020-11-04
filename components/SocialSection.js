@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Main.module.css"
+import styles from "../styles/SocialSection.module.css"
 import { Button, Link } from "@chakra-ui/core";
 
 function SocialSection() {
