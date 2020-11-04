@@ -4,16 +4,6 @@
   padding: 172px 0;
 }
 
-.mainContainer {
-  display: grid;
-  grid-template-columns: 1fr 6fr;
-  padding: 0 40px;
-}
-
-.main {
-  margin-right: 120px;
-}
-
 .title {
   color: white;
   font-size: 40px;
