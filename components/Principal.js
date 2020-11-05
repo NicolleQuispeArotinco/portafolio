@@ -15,12 +15,6 @@ function Principal({isEnglish}) {
       <h2 className={styles.occupation}>
         {isEnglish ? en.occupation: es.occupation}
       </h2>
-      <a href="#about">
-        <Button variantColor={"coral"} variant="outline" className={styles.viewButton}>
-          {isEnglish ? en.viewButton: es.viewButton}
-          <img src="/images/arrow.svg"/>
-        </Button>
-        </a>
     </div>
   )
 }
