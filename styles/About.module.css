@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu+Mono&display=swap");
 
 .container {
-  padding: 55px 0;
+  padding: 66px 0;
 }
 
 .mainContainer {
@@ -38,7 +38,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 20px;
-  padding: 0 30px 30px;
+  padding: 0 30px;
 }
 
 .skillsList {
@@ -67,6 +67,14 @@
 .paragraph {
   font-family: "Baloo Tammudu 2", cursive;
   color: rgba(255, 255, 255, 0.77);
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
+}
+
+.marginLeft {
+  padding-left: 30px;
+}
+
+.link {
+  color: #ff895d;
 }
