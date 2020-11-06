@@ -21,8 +21,14 @@ export const es = {
       date: "Dic 2017 - May 2018",
       toDo: [ "Administración y mantenimiento del sitio web principal, así como implementación de nuevos módulos.", "Las páginas estaban hechas con HTML5, CSS y WordPress.", "A través de la página web se dieron a conocer las aplicaciones creadas en Labsti; estas aplicaciones están orientadas en la historia del antiguo Perú."]
     }
+  },
+  projects: {
+    coralify: {
+      name: "Coralify",
+      description: "Página que emite certificados para estudiantes y clientes de organizadores de eventos.",
+      stack: ["Next.js", "Chakra UI", "Ruby"]
+    }
   }
-  
 }
 
 export const en = {
@@ -47,6 +53,13 @@ export const en = {
       place: "San Martin de Porres University",
       date: "Dec 2017 - May 2018",
       toDo: ["Administration and maintenance of the main website, as well as the implementation of new modules.", "The websites were made with HTML5, CSS y WordPress.", "Through the web page, the applications created in Labsti were made known; these applications are about the history of ancient Peru."]
+    }
+  },
+  projects: {
+    coralify: {
+      name: "Coralify",
+      description: "Website that issues certificates for students and clients of event organizers.",
+      stack: ["Next.js", "Chakra UI", "Ruby"]
     }
   }
 }

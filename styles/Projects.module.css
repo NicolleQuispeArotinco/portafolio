@@ -1,0 +1,81 @@
+.container {
+  padding: 84px 0;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: Nunito;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 30px 0 20px;
+}
+
+.infoContainer {
+  padding: 40px 30px;
+}
+
+.projectContainer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.projectInfo {
+  grid-area: 1/1/2/5;
+}
+
+.projectName {
+  color: #ff895d;
+  font-family: Nunito;
+  font-size: 38px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.description {
+  font-family: "Baloo Tammudu 2", cursive;
+  color: rgba(255, 255, 255, 0.77);
+  font-size: 16px;
+  margin: 0;
+}
+
+.projectImage {
+  width: 555px;
+  height: 286px;
+  border-radius: 30px;
+  filter: opacity(0.7);
+  transition: filter linear 0.2s;
+}
+
+.projectImage:hover {
+  filter: opacity(1);
+}
+
+.projectDescription {
+  background: #0e3752;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.linkImage {
+  grid-area: 1/6/2/4;
+}
+
+.listStack {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  width: 240px;
+  padding-left: 15px;
+}
+
+.listStack li {
+  font-family: "Ubuntu Mono", monospace;
+  color: rgba(255, 255, 255, 0.77);
+}
