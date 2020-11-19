@@ -17,7 +17,11 @@ function Projects({isEnglish}) {
               {isEnglish ? en.projects.coralify.stack.map((item, index) => (<li key={index}>{item}</li>)): es.projects.coralify.stack.map((item, index) => (<li key={index}>{item}</li>))}
             </ul>
           </div>
-          <a href="https://coraliapp-frontend.vercel.app/" className={styles.linkImage}><img className={styles.projectImage} src="/images/coralify.png" alt="Coralify"/></a>
+          <a href="https://coraliapp-frontend.vercel.app/" className={styles.linkImage}>
+            <div className={styles.imageContainer}>
+              <img className={styles.projectImage} src="/images/coralify.png" alt="Coralify"/>
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@
 }
 
 .infoContainer {
-  padding: 40px 30px;
+  padding: 40px 0;
 }
 
 .projectContainer {
@@ -38,7 +38,7 @@
 .description {
   font-family: "Baloo Tammudu 2", cursive;
   color: rgba(255, 255, 255, 0.77);
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -71,11 +71,63 @@
   list-style: none;
   padding: 0;
   justify-content: space-between;
-  width: 240px;
+  width: 270px;
   padding-left: 15px;
+  font-size: 18px;
 }
 
 .listStack li {
   font-family: "Ubuntu Mono", monospace;
   color: rgba(255, 255, 255, 0.77);
+}
+
+@media screen and (max-width: 1275px) and (min-width: 1130px) {
+  .projectImage {
+    width: 486px;
+    height: 273px;
+  }
+}
+
+@media screen and (max-width: 1129px) and (min-width: 1090px) {
+  .projectImage {
+    width: 466px;
+    height: 253px;
+  }
+}
+
+@media screen and (max-width: 1089px) and (min-width: 1020px) {
+  .projectImage {
+    width: 446px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1089px) {
+  .projectImage {
+    width: 100%;
+    max-width: 575px;
+    max-height: 300px;
+    height: auto;
+  }
+  .projectContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas:
+      "info"
+      "image";
+  }
+  .projectInfo {
+    grid-area: info;
+  }
+  .linkImage {
+    grid-area: image;
+  }
+  .imageContainer {
+    max-width: 575px;
+    margin: 15px auto;
+  }
+  .projectDescription {
+    z-index: 0;
+  }
 }

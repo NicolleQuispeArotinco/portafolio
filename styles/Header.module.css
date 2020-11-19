@@ -39,3 +39,9 @@
 .iconButton:focus {
   box-shadow: none !important;
 }
+
+@media screen and (max-width: 640px) {
+  .options {
+    margin-left: 0;
+  }
+}

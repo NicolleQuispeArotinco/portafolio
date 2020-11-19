@@ -22,11 +22,13 @@
 }
 
 .myImage {
-  width: 300px;
-  height: 295px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
   border-radius: 30px;
   filter: opacity(0.5);
   cursor: pointer;
+  grid-area: image;
 }
 
 .myImage:hover {
@@ -34,11 +36,18 @@
   transition: 0.3s linear;
 }
 
+.aboutMeText {
+  grid-area: about;
+}
+
 .infoContainer {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 4fr 1fr;
   grid-column-gap: 20px;
-  padding: 0 30px;
+  grid-template-areas:
+    "about image"
+    "moreInfo moreInfo";
 }
 
 .skillsList {
@@ -54,6 +63,7 @@
   margin-bottom: 10px;
   padding-left: 20px;
   color: rgba(255, 255, 255, 0.77);
+  font-size: 17px;
 }
 .skillsList li::before {
   content: "▹";
@@ -67,14 +77,46 @@
 .paragraph {
   font-family: "Baloo Tammudu 2", cursive;
   color: rgba(255, 255, 255, 0.77);
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
-.marginLeft {
-  padding-left: 30px;
+.moreInfo {
+  grid-area: moreInfo;
 }
 
 .link {
   color: #ff895d;
+}
+
+@media screen and (max-width: 1026px) {
+  .infoContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 0.5fr 2fr;
+    grid-column-gap: 20px;
+    grid-template-areas:
+      "about"
+      "moreInfo"
+      "image";
+  }
+
+  .myImage {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    filter: opacity(0.5);
+    cursor: pointer;
+    grid-area: image;
+  }
+  .myImageContainer {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .skillsList {
+    padding: 0 25px;
+  }
 }

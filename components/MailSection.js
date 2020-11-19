@@ -5,7 +5,7 @@ function MailSection(){
   return(
     <div className={styles.mailContainer}>
       <div className={styles.textContainer}>
-        <p>nicolleqa03@gmail.com</p>
+        <span>nicolleqa03@gmail.com</span>
       </div>
     </div>
   )
