@@ -95,13 +95,6 @@
   }
 }
 
-@media screen and (max-width: 1089px) and (min-width: 1020px) {
-  .projectImage {
-    width: 446px;
-    height: auto;
-  }
-}
-
 @media screen and (max-width: 1089px) {
   .projectImage {
     width: 100%;
@@ -129,5 +122,8 @@
   }
   .projectDescription {
     z-index: 0;
+  }
+  .infoContainer {
+    padding: 0;
   }
 }
