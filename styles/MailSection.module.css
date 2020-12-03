@@ -15,7 +15,7 @@
   height: 22px;
   margin: auto;
 }
-.textContainer span {
+.textContainer a {
   font-family: "Ubuntu Mono", monospace;
   color: #ff895d;
   font-style: normal;
