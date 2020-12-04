@@ -26,7 +26,7 @@ export const es = {
     coralify: {
       name: "Coralify",
       description: "Página que emite certificados para estudiantes y clientes de organizadores de eventos.",
-      stack: ["Next.js", "Chakra UI", "Ruby"]
+      stack: ["Next.js", "Chakra UI", "Ruby On Rails"]
     }
   }
 }
@@ -59,7 +59,7 @@ export const en = {
     coralify: {
       name: "Coralify",
       description: "Website that issues certificates for students and clients of event organizers.",
-      stack: ["Next.js", "Chakra UI", "Ruby"]
+      stack: ["Next.js", "Chakra UI", "Ruby On Rails"]
     }
   }
 }

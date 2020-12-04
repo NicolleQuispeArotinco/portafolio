@@ -71,7 +71,7 @@
   list-style: none;
   padding: 0;
   justify-content: space-between;
-  width: 270px;
+  width: 315px;
   padding-left: 15px;
   font-size: 18px;
 }
@@ -79,6 +79,18 @@
 .listStack li {
   font-family: "Ubuntu Mono", monospace;
   color: rgba(255, 255, 255, 0.77);
+}
+
+.projectIcon {
+  border: transparent !important;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.projectIcon:hover {
+  transform: scale(1.2);
+}
+.projectIcon:focus {
+  box-shadow: none !important;
 }
 
 @media screen and (max-width: 1275px) and (min-width: 1130px) {
